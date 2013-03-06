@@ -256,6 +256,7 @@ public class PlacePickerFragment extends PickerFragment<GraphPlace> {
         a.recycle();
     }
 
+    @SuppressWarnings("deprecation")
     @Override
     public void onActivityCreated(final Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);

@@ -4,6 +4,9 @@ gen/
 out/
 .arc/
 
+#Gradle
+build/
+
 #IntelliJ IDEA
 .idea
 *.ipr

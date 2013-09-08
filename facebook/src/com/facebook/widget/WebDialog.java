@@ -262,6 +262,7 @@ public class WebDialog extends Dialog {
     }
 
     @SuppressLint("SetJavaScriptEnabled")
+    @SuppressWarnings("deprecation")
     private void setUpWebView(int margin) {
         LinearLayout webViewContainer = new LinearLayout(getContext());
         webView = new WebView(getContext());
